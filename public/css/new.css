@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: #1e1e1e;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left section: Flamingo image */
+.image-section {
+    flex: 1;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right section: Form */
+.form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Logo at the top */
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Heading style */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input field styles */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Instruction text for password criteria */
+.instruction {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Confirm button */
+.confirm-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00b0ff, #0066ff);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.confirm-button:hover {
+    background: linear-gradient(to right, #0099cc, #005bb5);
+}
+
